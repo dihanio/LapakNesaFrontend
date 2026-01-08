@@ -1,0 +1,23 @@
+$ vite build
+[36mvite v7.3.0 [32mbuilding client environment for production...[36m[39m
+transforming...
+[32m✓[39m 101 modules transformed.
+[31m✗[39m Build failed in 2.11s
+[31merror during build:
+[31msrc/utils/chatUtils.js (81:16): Expression expected[31m
+file: [36mC:/laragon/www/lapaknesa/frontend/src/utils/chatUtils.js:81:16[31m
+[33m
+79:             }
+80:             return (
+81:                 <a
+                    ^
+82:                     key={index}
+83:                     href={href}
+[31m
+    at getRollupError (C:\laragon\www\lapaknesa\frontend\node_modules\rollup\dist\es\shared\parseAst.js:401:45)
+    at initialise (C:\laragon\www\lapaknesa\frontend\node_modules\rollup\dist\es\shared\node-entry.js:14534:28)
+    at convertNode (C:\laragon\www\lapaknesa\frontend\node_modules\rollup\dist\es\shared\node-entry.js:16418:10)
+    at setSource (C:\laragon\www\lapaknesa\frontend\node_modules\rollup\dist\es\shared\node-entry.js:17418:24)
+    at async addModuleSource (C:\laragon\www\lapaknesa\frontend\node_modules\rollup\dist\es\shared\node-entry.js:21448:26)
+    at processTicksAndRejections (native:7:39)[39m
+error: script "build" exited with code 1
